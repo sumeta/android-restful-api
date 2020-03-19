@@ -1,0 +1,2 @@
+rootProject.name='Android Rest API'
+include ':app'
