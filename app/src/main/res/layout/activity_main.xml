@@ -4,15 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
     <Button
         android:id="@+id/btnRetrofit2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/retrofit2">
+        android:text="@string/retrofit2"/>
 
-    </Button>
+    <Button
+        android:id="@+id/btnRxJava2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RxJava2"/>
 
 
 </LinearLayout>
