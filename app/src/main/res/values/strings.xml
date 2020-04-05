@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Android Rest API</string>
+    <string name="app_name">Rest API</string>
     <string name="retrofit2">Retrofit2</string>
     <string name="text">Text</string>
 </resources>
