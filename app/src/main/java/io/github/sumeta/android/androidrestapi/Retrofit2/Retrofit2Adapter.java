@@ -48,7 +48,7 @@ public class Retrofit2Adapter extends BaseAdapter {
         textViewSymbol.setText(data.get(position).getLogin());
 
         TextView textViewName = view.findViewById(R.id.textViewNumber);
-        //textViewName.setText(data.get(position).getNumber());
+        textViewName.setText(""+data.get(position).getNumber());
 
         return view;
     }

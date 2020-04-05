@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".Retrofit2.Retrofit2Activity">
 
-        <androidx.recyclerview.widget.RecyclerView
+        <ListView
             android:id="@+id/listView"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-        </androidx.recyclerview.widget.RecyclerView>
+        </ListView>
 
 </LinearLayout>
